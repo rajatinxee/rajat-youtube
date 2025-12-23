@@ -9,7 +9,7 @@ const Body = () => {
     <>
       <div className="flex">
         {isMenuOpen && <Sidebar />}
-        
+
         <MainContainer />
       </div>
     </>

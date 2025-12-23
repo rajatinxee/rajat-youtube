@@ -1,0 +1,17 @@
+export const buttonListMock = [
+  { id: 1, label: "All" },
+  { id: 2, label: "Music" },
+  { id: 3, label: "Live" },
+  { id: 4, label: "Mixes" },
+  { id: 5, label: "Cricket" },
+  { id: 6, label: "Love" },
+  { id: 7, label: "Cooking" },
+  { id: 8, label: "Study" },
+  { id: 9, label: "Gaming" },
+  { id: 10, label: "Cooking" },
+  { id: 11, label: "Study" },
+  { id: 12, label: "Gaming" },
+  { id: 13, label: "Cooking" },
+  { id: 14, label: "Study" },
+  { id: 15, label: "Gaming" },
+];
