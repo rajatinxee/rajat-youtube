@@ -1,9 +1,9 @@
 import { useSelector } from "react-redux";
 import { mid, top } from "../data/sidebarMock";
+import { Link } from "react-router-dom";
 
 const Sidebar = () => {
-
-  const isMenuOpen = useSelector(store => store.app.isMenuOpen);
+  const isMenuOpen = useSelector((store) => store.app.isMenuOpen);
 
   // early return pattern
   // if(!isMenuOpen) return null;
@@ -13,7 +13,13 @@ const Sidebar = () => {
       <div className=" p-5 shadow-lg w-48">
         {top.map((item) => (
           <div key={item.id}>
-            <div>{item.name}</div>
+            {item.name === "Home" ? (
+              <Link to="/">
+                <div>{item.name}</div>
+              </Link>
+            ) : (
+              <div>{item.name}</div>
+            )}
           </div>
         ))}
 
