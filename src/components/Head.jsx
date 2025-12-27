@@ -47,7 +47,7 @@ const Head = () => {
         [searchQuery]: json[1],
       })
     );
-    console.log(json);
+    // console.log(json);
   };
 
   return (
