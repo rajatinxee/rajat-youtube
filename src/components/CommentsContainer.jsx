@@ -21,6 +21,16 @@ const commentData = [
               },
             ],
           },
+          {
+            name: "Rajat",
+            text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique error molestiae ",
+            replies: [],
+          },
+          {
+            name: "Rajat",
+            text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique error molestiae ",
+            replies: [],
+          },
         ],
       },
     ],
