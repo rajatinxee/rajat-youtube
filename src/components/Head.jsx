@@ -61,7 +61,9 @@ const Head = () => {
             className="h-8 cursor-pointer"
             onClick={toggleSidebar}
           />
-          <img src={YOUTUBE_LOGO} alt="YOUTUBE_LOGO" className="h-8 mx-2" />
+          <a href="/">
+            <img src={YOUTUBE_LOGO} alt="YOUTUBE_LOGO" className="h-8 mx-2" />
+          </a>
         </div>
 
         {/* middle */}
