@@ -5,19 +5,22 @@ import { Link } from "react-router-dom";
 const Sidebar = () => {
   const isMenuOpen = useSelector((store) => store.app.isMenuOpen);
 
-  
-
   // early return pattern
   // if(!isMenuOpen) return null;
 
   return (
     <>
       <div className=" p-5 shadow-lg w-48">
+        <Link to={"/demo"}>
+          <div className="font-bold">Demo</div>
+        </Link>
         {top.map((item) => (
           <div key={item.id}>
             {item.name === "Home" ? (
               <Link to="/">
-                <div className="font-bold text-xl text-red-700">{item.name}</div>
+                <div className="font-bold text-xl text-red-700">
+                  {item.name}
+                </div>
               </Link>
             ) : (
               <div>{item.name}</div>
